@@ -1,0 +1,3844 @@
+- app_type x is_liked_by_connections x participant[1234]_action
+
+
+- app_type x is_liked_by_connections x participant3_focus
+
+
+- app_type x participant1_is_employee x participant1_focus
+
+
+- app_type x participant1_is_employee x participant2_action
+
+
+- app_type x participant1_is_employee x participant2_influence
+
+
+
+
+
+
+- app_type x participant1_is_in_connections x number_of_comments
+
+
+- app_type x participant2_action x is_commented_by_connections
+
+
+- app_type x participant2_action x is_liked_by_connections
+
+
+- app_type x participant2_action x number_of_comments
+
+
+- app_type x participant2_action x participant[1345]_action
+
+
+
+
+
+
+
+
+- app_type x participant2_action x participant[134]_focus
+
+
+- app_type x participant2_action x participant[2345]_influence
+
+
+- app_type x participant3_action x number_of_comments
+
+
+- app_type x participant3_action x participant[1245]_action
+
+
+- app_type x participant3_action x participant[12]_is_employee
+
+
+
+
+
+
+
+
+- app_type x participant3_action x participant[34]_focus
+
+
+Is_commented_by_connections:
+- is_commented_by_connections x participant1_action x participant[23]_action
+
+
+- is_commented_by_connections x participant1_action x participant[34]_is_employee
+
+
+- is_commented_by_connections x participant1_action x participant[5]_focus
+
+- is_commented_by_connections x participant2_action x is_liked_by_connections
+
+
+- is_commented_by_connections x participant2_action x number_of_comments
+
+
+- is_commented_by_connections x participant2_action x number_of_likes
+
+
+
+
+
+
+
+- is_commented_by_connections x participant2_action x participant1_focus
+
+
+- is_commented_by_connections x participant2_action x participant[12345]_is_employee
+
+
+- is_commented_by_connections x participant2_action x participant[2345]_influence
+
+- is_commented_by_connections x participant2_action x participant[345]_action
+
+
+- is_commented_by_connections x participant3_action x number_of_comments
+
+
+- is_commented_by_connections x participant3_action x participant1_is_employee
+
+
+
+- is_commented_by_connections x participant3_action x participant[245]_action
+
+
+- is_commented_by_connections x participant3_action x participant[34]_focus
+
+
+- is_commented_by_connections x participant3_focus x is_liked_by_connections
+
+
+
+- is_commented_by_connections x participant3_focus x participant[24]_action
+
+
+- is_commented_by_connections x participant3_focus x participant[23]_is_employee
+
+
+- is_commented_by_connections x participant4_focus x is_liked_by_connections
+
+
+- is_commented_by_connections x participant4_focus x participant[2345]_action
+
+
+- is_commented_by_connections x participant4_focus x participant[34]_is_employee
+
+
+- is_commented_by_connections x participant5_action x number_of_likes
+
+- is_commented_by_connections x participant5_action x participant[234]_action
+
+
+- is_commented_by_connections x participant5_action x participant[2]_is_employee
+
+
+- is_commented_by_connections x participant5_action x participant[345]_focus
+
+Is_liked_by_connections:
+- is_liked_by_connections x participant1_action x is_commented_by_connections
+
+
+- is_liked_by_connections x participant1_action x number_of_comments
+
+
+- is_liked_by_connections x participant1_action x participant[23]_action
+
+
+
+- is_liked_by_connections x participant1_action x participant[345]_influence
+
+
+- is_liked_by_connections x participant1_focus x is_commented_by_connections
+
+
+- is_liked_by_connections x participant1_focus x participant[123]_is_employee
+
+
+- is_liked_by_connections x participant1_focus x participant[23]_action
+
+
+- is_liked_by_connections x participant1_focus x participant[3]_focus
+
+
+- is_liked_by_connections x participant1_is_employee x participant[13]_focus
+
+
+
+
+- is_liked_by_connections x participant1_is_employee x participant[23]_action
+
+
+- is_liked_by_connections x participant1_is_employee x participant[23]_is_employee
+
+
+- is_liked_by_connections x participant2_action x is_commented_by_connections
+
+
+- is_liked_by_connections x participant2_action x number_of_comments
+
+
+- is_liked_by_connections x participant2_action x participant[1345]_action
+
+
+- is_liked_by_connections x participant2_action x participant[12345]_is_employee
+
+
+- is_liked_by_connections x participant2_action x participant[2345]_influence
+
+
+- is_liked_by_connections x participant2_action x participant[34]_focus
+
+
+- is_liked_by_connections x participant2_is_employee x participant[2]_action
+
+
+- is_liked_by_connections x participant3_action x is_commented_by_connections
+
+
+- is_liked_by_connections x participant3_action x number_of_comments
+
+
+- is_liked_by_connections x participant3_action x participant[125]_action
+
+
+- is_liked_by_connections x participant3_action x participant[14]_is_employee
+
+
+- is_liked_by_connections x participant3_action x participant[34]_focus
+
+
+- is_liked_by_connections x participant3_focus x participant[12]_is_employee
+
+
+
+- is_liked_by_connections x participant3_focus x participant[24]_action
+
+
+- is_liked_by_connections x participant3_is_employee x participant2_is_employee
+
+
+- is_liked_by_connections x participant4_action x is_commented_by_connections
+
+
+
+- is_liked_by_connections x participant4_action x participant[12]_action
+
+
+- is_liked_by_connections x participant4_action x participant[134]_focus
+
+
+- is_liked_by_connections x participant4_action x participant[125]_is_employee
+
+
+
+
+- is_liked_by_connections x participant4_focus x is_commented_by_connections
+
+
+- is_liked_by_connections x participant4_focus x participant[13]_is_employee
+
+
+- is_liked_by_connections x participant4_focus x participant[235]_action
+
+
+
+- is_liked_by_connections x participant5_action x is_commented_by_connections
+
+
+- is_liked_by_connections x participant5_action x participant[23]_action
+
+
+- is_liked_by_connections x participant5_action x participant2_is_employee
+
+
+- is_liked_by_connections x participant5_action x participant[345]_focus
+
+
+Is_mentions_connections:
+- is_mentions_connections x is_commented_by_connections x participant[123]_action
+
+
+- is_mentions_connections x participant1_action x number_of_comments
+
+- is_mentions_connections x participant1_action x participant[34]_is_employee
+
+
+- is_mentions_connections x participant1_action x participant5_focus
+
+
+- is_mentions_connections x participant2_action x is_commented_by_connections
+
+- is_mentions_connections x participant2_action x is_liked_by_connections
+
+
+- is_mentions_connections x participant2_action x  number_of_comments
+
+
+- is_mentions_connections x participant2_action x  number_of_likes
+
+
+- is_mentions_connections x participant2_action x participant[345]_action
+
+
+- is_mentions_connections x participant2_action x participant[2345]_influence
+
+
+- is_mentions_connections x participant3_action x is_commented_by_connections
+
+
+
+- is_mentions_connections x participant3_action x number_of_comments
+
+
+- is_mentions_connections x participant3_action x participant2_action
+
+
+- is_mentions_connections x participant3_action x participant[34]_focus
+
+
+
+
+- is_mentions_connections x participant3_is_employee x is_commented_by_connections
+
+- is_mentions_connections x participant3_is_employee x number_of_comments
+
+
+- is_mentions_connections x participant3_is_employee x participant[24]_action
+
+
+- is_mentions_connections x participant4_focus x participant[245]_action
+
+
+- is_mentions_connections x participant4_is_employee x participant[25]_action
+
+
+Owner_type:
+- owner_type x participant2_action x is_commented_by_connections
+
+
+- owner_type x participant2_action x is_liked_by_connections
+
+
+- owner_type x participant2_action x number_of_comments
+
+
+- owner_type x participant2_action x number_of_likes
+
+- owner_type x participant2_action x participant[145]_action
+
+
+- owner_type x participant2_action x participant[134]_focus
+
+
+- owner_type x participant2_action x participant[1345]_is_employee
+
+
+
+
+- owner_type x participant2_action x participant[2345]_influence
+
+
+- owner_type x participant5_action x is_commented_by_connections
+
+
+- owner_type x participant5_action x number_of_likes
+
+
+- owner_type x participant5_action x participant[23]_action
+
+
+- owner_type x participant5_action x participant[2345]_influence
+
+
+- owner_type x participant5_action x participant[2345]_is_employee
+
+
+- owner_type x participant5_action x participant[35]_focus
+
+
+Poster_focus:
+- poster_focus x participant1_focus x is_commented_by_connections
+
+
+- poster_focus x participant1_focus x is_liked_by_connections
+
+
+- poster_focus x participant1_focus x number_of_likes
+
+
+
+
+- poster_focus x participant1_focus x participant[13]_influence
+
+
+- poster_focus x participant1_focus x participant[123]_is_employee
+
+
+- poster_focus x participant1_focus x participant[23]_action
+
+Poster_is_in_connections:
+- poster_is_in_connections x poster_focus x poster_influence
+
+- poster_is_in_connections x poster_focus x poster_is_employee
+
+
+- poster_is_in_connections x poster_focus x participant3_is_employee
+
+
+Poster_gender:
+- poster_gender x participant2_action x is_commented_by_connections
+
+
+- poster_gender x participant2_action x is_liked_by_connections
+
+
+- poster_gender x participant2_action x number_of_comments
+
+
+- poster_gender x participant2_action x number_of_likes
+
+
+
+- poster_gender x participant2_action x participant[15]_action
+
+
+- poster_gender x participant2_action x participant[134]_focus
+
+
+- poster_gender x participant2_action x participant[123]_is_employee
+
+
+
+
+
+- poster_gender x participant2_action x participant[2345]_influence
+
+
+- poster_gender x participant3_action x is_commented_by_connections
+
+
+- poster_gender x participant3_action x is_liked_by_connections
+
+
+- poster_gender x participant3_action x number_of_comments
+
+
+- poster_gender x participant3_action x number_of_likes
+
+
+- poster_gender x participant3_action x participant1_action
+
+
+- poster_gender x participant3_action x participant[2345]_influence
+
+
+- poster_gender x participant3_action x participant[12345]_is_employee
+
+
+- poster_gender x participant4_action x is_commented_by_connections
+
+
+- poster_gender x participant4_action x is_liked_by_connections
+
+
+- poster_gender x participant4_action x number_of_comments
+
+
+- poster_gender x participant4_action x number_of_likes
+
+
+- poster_gender x participant4_action x participant1_action
+
+
+- poster_gender x participant4_action x participant[2345]_influence
+
+
+- poster_gender x participant4_action x participant[2345]_is_employee
+
+Poster_is_employee:
+- poster_is_employee x participant1_is_employee x participant[23]_action
+
+
+- poster_is_employee x participant1_is_employee x participant3_focus
+
+
+- poster_is_employee x participant2_is_employee x participant[235]_action
+
+
+- poster_is_employee x participant3_is_employee x participant[2345]_action
+
+
+- poster_is_employee x participant3_is_employee x participant3_focus
+
+
+Participant1_action:
+- participant1_action x is_commented_by_connections x participant[23]_action
+
+
+
+
+
+- participant1_action x is_commented_by_connections x participant3_focus
+
+
+- participant1_action x is_liked_by_connections x participant[34]_focus
+
+
+- participant1_action x is_mentions_connections x is_commented_by_connections
+
+
+- participant1_action x is_mentions_connections x participant[23]_action
+
+
+
+- participant1_action x is_mentions_connections x participant3_is_employee
+
+
+- participant1_action x participant2_action x is_commented_by_connections
+
+
+- participant1_action x participant2_action x number_of_comments
+
+
+- participant1_action x participant2_action x number_of_likes
+
+
+- participant1_action x participant2_action x participant[34]_is_employee
+
+
+- participant1_action x participant2_action x participant4_action
+
+
+- participant1_action x participant3_action x is_commented_by_connections
+
+
+- participant1_action x participant3_action x is_liked_by_connections
+
+
+- participant1_action x participant3_action x number_of_comments
+
+
+- participant1_action x participant3_action x participant2_action
+
+
+- participant1_action x participant3_action x participant3_focus
+
+
+- participant1_action x participant3_is_employee x is_liked_by_connections
+
+
+- participant1_action x participant3_is_employee x number_of_comments
+
+
+- participant1_action x participant3_is_employee x number_of_likes
+
+
+- participant1_action x participant3_is_employee x participant3_focus
+
+
+- participant1_action x participant4_is_employee x is_commented_by_connections
+
+
+- participant1_action x participant4_is_employee x is_liked_by_connections
+
+
+- participant1_action x participant4_is_employee x number_of_comments
+
+
+- participant1_action x participant4_is_employee x number_of_likes
+
+
+- participant1_action x participant4_is_employee x participant2_action
+
+
+- participant1_action x participant4_is_employee x participant2_is_employee
+
+
+- participant1_action x participant5_focus x number_of_comments
+
+
+- participant1_action x participant5_focus x number_of_likes
+
+
+- participant1_action x participant5_focus x participant1_is_employee
+
+
+Participant1_focus:
+- participant1_focus x is_commented_by_connections x participant[123]_action
+
+
+- participant1_focus x is_commented_by_connections x participant4_focus
+
+
+- participant1_focus x is_liked_by_connections x participant[12]_action
+
+
+- participant1_focus x is_liked_by_connections x participant1_is_employee
+
+
+
+- participant1_focus x is_liked_by_connections x participant4_focus
+
+
+- participant1_focus x participant1_is_employee x is_commented_by_connections
+
+
+- participant1_focus x participant1_is_employee x participant1_influence
+
+
+- participant1_focus x participant1_is_employee x participant[23]_action
+
+
+
+
+
+- participant1_focus x participant2_action x is_commented_by_connections
+
+
+- participant1_focus x participant2_action x is_liked_by_connections
+
+
+- participant1_focus x participant2_action x number_of_comments
+
+
+- participant1_focus x participant2_action x number_of_likes
+
+
+
+
+- participant1_focus x participant2_action x participant[1345]_action
+
+
+- participant1_focus x participant2_action x participant[12345]_is_employee
+
+
+- participant1_focus x participant2_is_employee x participant2_action
+
+
+- participant1_focus x participant2_is_employee x participant4_focus
+
+
+
+
+
+- participant1_focus x participant3_action x is_commented_by_connections
+
+
+- participant1_focus x participant3_action x is_liked_by_connections
+
+
+- participant1_focus x participant3_action x number_of_comments
+
+
+- participant1_focus x participant3_action x participant[1245]_action
+
+
+
+
+
+- participant1_focus x participant3_action x participant1_is_employee
+
+
+- participant1_focus x participant3_action x participant4_focus
+
+
+- participant1_focus x participant3_focus x is_liked_by_connections
+
+
+- participant1_focus x participant3_focus x participant[123]_is_employee
+
+
+
+
+
+- participant1_focus x participant3_focus x participant[24]_action
+
+
+- participant1_focus x participant3_is_employee x participant2_action
+
+
+- participant1_focus x participant3_is_employee x participant4_focus
+
+
+- participant1_focus x participant4_focus x is_commented_by_connections
+
+
+
+
+
+- participant1_focus x participant4_focus x participant[1234]_is_employee
+
+
+- participant1_focus x participant4_focus x participant[345]_action
+
+
+Participant1_gender:
+- participant1_gender x participant1_action x participant3_action
+
+
+
+
+
+
+
+
+- participant1_gender x participant1_action x participant5_focus
+
+
+- participant1_gender x participant2_action x number_of_likes
+
+
+- participant1_gender x participant2_action x participant[2345]_influence
+
+
+- participant1_gender x participant2_action x participant[2345]_is_employee
+
+
+- participant1_gender x participant2_action x participant[34]_action
+
+
+- participant1_gender x participant2_action x participant[34]_focus
+
+
+
+- participant1_gender x participant3_action x is_commented_by_connections
+
+
+- participant1_gender x participant3_action x number_of_comments
+
+
+- participant1_gender x participant3_action x number_of_likes
+
+
+- participant1_gender x participant3_action x participant[125]_action
+
+
+- participant1_gender x participant3_action x participant[2345]_influence
+
+
+- participant1_gender x participant3_action x participant[2345]_is_employee
+
+
+- participant1_gender x participant3_action x participant[34]_focus
+
+
+- participant1_gender x participant3_is_employee x participant[345]_action
+
+
+- participant1_gender x participant3_is_employee x participant3_focus
+
+
+- participant1_gender x participant4_action x number_of_comments
+
+
+- participant1_gender x participant4_action x number_of_likes
+
+
+- participant1_gender x participant4_action x participant[15]_action
+
+
+- participant1_gender x participant4_action x participant[2345]_influence
+
+
+- participant1_gender x participant4_action x participant[2345]_is_employee
+
+
+- participant1_gender x participant4_action x participant[34]_focus
+
+
+- participant1_gender x participant4_focus x participant[2345]_action
+
+
+- participant1_gender x participant5_focus x participant3_is_employee
+
+
+Participant1_is_employee:
+- participant1_is_employee x is_commented_by_connections x participant[12]_action
+
+
+- participant1_is_employee x is_commented_by_connections x participant4_focus
+
+
+- participant1_is_employee x is_liked_by_connections x participant[124]_action
+
+
+- participant1_is_employee x is_liked_by_connections x participant4_focus
+
+
+- participant1_is_employee x participant1_focus x participant1_influence
+
+
+- participant1_is_employee x participant1_focus x participant[23]_action
+
+
+- participant1_is_employee x participant2_action x is_commented_by_connections
+
+
+- participant1_is_employee x participant2_action x is_liked_by_connections
+
+
+- participant1_is_employee x participant2_action x number_of_comments
+
+
+- participant1_is_employee x participant2_action x participant[2345]_influence
+
+
+- participant1_is_employee x participant2_action x participant[234]_is_employee
+
+
+- participant1_is_employee x participant2_action x participant[34]_action
+
+
+- participant1_is_employee x participant2_is_employee x participant2_action
+
+
+
+
+- participant1_is_employee x participant2_is_employee x participant4_focus
+
+
+- participant1_is_employee x participant3_action x participant[124]_action
+
+
+- participant1_is_employee x participant3_action x participant[34]_focus
+
+
+
+
+- participant1_is_employee x participant3_focus x participant3_is_employee
+
+
+- participant1_is_employee x participant3_is_employee x participant2_action
+
+
+- participant1_is_employee x participant3_is_employee x participant4_focus
+
+- participant1_is_employee x participant4_focus x is_commented_by_connections
+
+
+- participant1_is_employee x participant4_focus x participant[2345]_influence
+
+
+- participant1_is_employee x participant4_focus x participant[234]_is_employee
+
+- participant1_is_employee x participant4_focus x participant[345]_action
+
+
+Participant1_is_in_connections:
+- participant1_is_in_connections x app_type x is_liked_by_connections
+
+
+- participant1_is_in_connections x app_type x  participant1_is_employee
+
+
+- participant1_is_in_connections x app_type x participant[23]_action
+
+
+- participant1_is_in_connections x participant1_focus x number_of_comments
+
+
+- participant1_is_in_connections x participant1_focus x number_of_likes
+
+
+- participant1_is_in_connections x participant1_focus x participant[13]_influence
+
+
+- participant1_is_in_connections x participant1_focus x participant1_is_employee
+
+
+- participant1_is_in_connections x participant1_focus x participant3_action
+
+
+- participant1_is_in_connections x participant1_is_employee x is_commented_by_connections
+
+
+- participant1_is_in_connections x participant1_is_employee x participant1_focus
+
+
+- participant1_is_in_connections x participant2_action x is_commented_by_connections
+
+
+- participant1_is_in_connections x participant2_action x is_liked_by_connections
+
+
+- participant1_is_in_connections x participant2_action x number_of_comments
+
+
+- participant1_is_in_connections x participant2_action x number_of_likes
+
+
+- participant1_is_in_connections x participant2_action x participant[134]_action
+
+
+- participant1_is_in_connections x participant2_action x participant[134]_focus
+
+
+- participant1_is_in_connections x participant2_action x participant[2345]_influence
+
+
+- participant1_is_in_connections x participant2_action x participant[234]_is_employee
+
+
+- participant1_is_in_connections x participant3_action x participant[12]_action
+
+
+- participant1_is_in_connections x participant3_action x participant[34]_focus
+
+
+
+Participant2_action:
+- participant2_action x is_commented_by_connections x participant[135]_action
+
+
+- participant2_action x is_commented_by_connections x participant4_focus
+
+
+- participant2_action x is_liked_by_connections x participant[1345]_action
+
+
+
+
+
+
+
+
+- participant2_action x is_liked_by_connections x participant1_focus
+
+
+- participant2_action x is_liked_by_connections x participant[234]_is_employee
+
+
+- participant2_action x is_mentions_connections x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant2_action x is_mentions_connections x participant[13]_action
+
+
+- participant2_action x is_mentions_connections x participant[34]_is_employee
+
+
+- participant2_action x participant1_action x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant2_action x participant1_action x number_of_comments
+
+
+- participant2_action x participant1_action x number_of_likes
+
+
+- participant2_action x participant1_action x participant3_action
+
+
+
+
+
+
+
+- participant2_action x participant1_action x participant[34]_is_employee
+
+
+- participant2_action x participant1_focus x is_commented_by_connections
+
+
+- participant2_action x participant1_focus x is_liked_by_connections
+
+
+
+
+
+
+
+- participant2_action x participant1_focus x participant[123]_is_employee
+
+
+- participant2_action x participant1_focus x participant3_action
+
+
+- participant2_action x participant1_is_employee x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant2_action x participant1_is_employee x participant[14]_focus
+
+
+- participant2_action x participant1_is_employee x participant[23]_is_employee
+
+
+- participant2_action x participant1_is_employee x participant3_action
+
+
+
+
+
+
+
+
+- participant2_action x participant2_is_employee x is_commented_by_connections
+
+
+- participant2_action x participant2_is_employee x is_liked_by_connections
+
+
+- participant2_action x participant2_is_employee x participant3_action
+
+
+
+
+
+
+
+
+- participant2_action x participant2_is_employee x participant[34]_is_employee
+
+
+- participant2_action x participant3_action x is_commented_by_connections
+
+
+- participant2_action x participant3_action x is_liked_by_connections
+
+
+
+
+
+
+
+- participant2_action x participant3_action x number_of_likes
+
+
+- participant2_action x participant3_action x participant[14]_is_employee
+
+
+- participant2_action x participant3_action x participant[45]_influence
+
+
+
+
+
+
+
+- participant2_action x participant3_focus x is_commented_by_connections
+
+
+- participant2_action x participant3_focus x is_liked_by_connections
+
+
+- participant2_action x participant3_focus x participant1_action
+
+
+
+
+
+
+
+
+- participant2_action x participant3_focus x participant1_focus
+
+
+- participant2_action x participant3_focus x participant[23]_is_employee
+
+
+- participant2_action x participant3_is_employee x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant2_action x participant3_is_employee x participant2_is_employee
+
+
+- participant2_action x participant3_is_employee x participant[45]_action
+
+
+- participant2_action x participant3_is_employee x participant4_focus
+
+
+
+
+
+
+
+
+- participant2_action x participant4_action x is_commented_by_connections
+
+
+- participant2_action x participant4_action x is_liked_by_connections
+
+
+- participant2_action x participant4_action x number_of_likes
+
+
+
+
+
+
+
+- participant2_action x participant4_action x participant[15]_action
+
+
+- participant2_action x participant4_action x participant1_focus
+
+
+- participant2_action x participant4_action x participant[345]_influence
+
+
+
+
+
+
+
+
+- participant2_action x participant4_action x participant[345]_is_employee
+
+
+- participant2_action x participant4_focus x is_commented_by_connections
+
+
+- participant2_action x participant4_focus x is_liked_by_connections
+
+
+
+
+
+
+
+- participant2_action x participant4_focus x participant1_focus
+
+
+- participant2_action x participant4_focus x participant[124]_is_employee
+
+
+- participant2_action x participant4_focus x participant[34]_action
+
+
+
+
+
+
+
+
+- participant2_action x participant4_is_employee x is_commented_by_connections
+
+
+- participant2_action x participant4_is_employee x participant[345]_action
+
+
+- participant2_action x participant5_action x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant2_action x participant5_action x number_of_likes
+
+
+- participant2_action x participant5_action x participant3_action
+
+
+- participant2_action x participant5_action x participant[45]_focus
+
+
+
+
+
+
+
+
+- participant2_action x participant5_action x participant[345]_influence
+
+
+- participant2_action x participant5_action x participant[45]_is_employee
+
+
+- participant2_action x participant5_is_employee x is_commented_by_connections
+
+
+
+
+
+
+
+- participant2_action x participant5_is_employee x participant[345]_action
+
+
+- participant2_action x participant5_is_employee x participant[45]_focus
+
+
+Participant2_focus:
+- participant2_focus x participant2_action x is_commented_by_connections
+
+
+
+
+
+
+
+
+
+
+- participant2_focus x participant2_action x number_of_comments
+
+
+- participant2_focus x participant2_action x number_of_likes
+
+
+- participant2_focus x participant2_action x participant[134]_action
+
+
+- participant2_focus x participant2_action x participant[13]_focus
+
+
+- participant2_focus x participant2_action x participant[2345]_influence
+
+
+- participant2_focus x participant2_action x participant[23]_is_employee
+
+
+- participant2_focus x participant2_is_employee x participant2_action
+
+
+- participant2_focus x participant2_is_employee x participant2_influence
+
+
+
+
+
+
+- participant2_focus x participant2_is_employee x participant4_focus
+
+
+- participant2_focus x participant4_focus x is_commented_by_connections
+
+
+- participant2_focus x participant4_focus x participant1_focus
+
+
+- participant2_focus x participant4_focus x participant[2345]_influence
+
+
+
+
+
+- participant2_focus x participant4_focus x participant[234]_is_employee
+
+
+- participant2_focus x participant4_focus x participant[345]_action
+
+
+- participant2_focus x participant5_focus x participant1_action
+
+
+- participant2_focus x participant5_focus x participant[235]_influence
+
+
+
+
+
+Participant2_gender:
+- participant2_gender x participant2_is_employee x participant[23]_action
+
+
+- participant2_gender x participant2_is_employee x participant4_focus
+
+
+- participant2_gender x participant3_action x is_liked_by_connections
+
+
+- participant2_gender x participant3_action x number_of_likes
+
+
+- participant2_gender x participant3_action x participant[1245]_action
+
+
+- participant2_gender x participant3_action x participant[12345]_is_employee
+
+
+- participant2_gender x participant3_action x participant[34]_focus
+
+
+- participant2_gender x participant3_action x participant[345]_influence
+
+
+- participant2_gender x participant3_is_employee x participant[2345]_action
+
+
+- participant2_gender x participant4_action x is_liked_by_connections
+
+
+- participant2_gender x participant4_action x number_of_comments
+
+
+- participant2_gender x participant4_action x number_of_likes
+
+
+- participant2_gender x participant4_action x participant[123]_action
+
+
+- participant2_gender x participant4_action x participant[134]_focus
+
+
+- participant2_gender x participant4_action x participant[12345]_is_employee
+
+
+- participant2_gender x participant4_action x participant[345]_influence
+
+
+- participant2_gender x participant4_is_employee x participant[2345]_action
+
+
+- participant2_gender x participant4_is_employee x participant4_focus
+
+
+- participant2_gender x participant5_action x is_commented_by_connections
+
+
+- participant2_gender x participant5_action x is_liked_by_connections
+
+
+- participant2_gender x participant5_action x number_of_comments
+
+
+- participant2_gender x participant5_action x number_of_likes
+
+
+- participant2_gender x participant5_action x participant[2345]_is_employee
+
+
+- participant2_gender x participant5_action x participant[345]_focus
+
+
+- participant2_gender x participant5_action x participant[345]_influence
+
+
+Participant2_is_employee:
+- participant2_is_employee x is_commented_by_connections x participant[123]_action
+
+
+- participant2_is_employee x is_liked_by_connections x participant[134]_action
+
+
+- participant2_is_employee x is_liked_by_connections x participant[13]_focus
+
+
+- participant2_is_employee x is_liked_by_connections x participant3_is_employee
+
+
+- participant2_is_employee x participant1_focus x is_commented_by_connections
+
+
+- participant2_is_employee x participant1_focus x number_of_comments
+
+
+- participant2_is_employee x participant1_focus x number_of_likes
+
+
+- participant2_is_employee x participant1_focus x participant[13]_is_employee
+
+
+- participant2_is_employee x participant1_focus x participant3_action
+
+
+- participant2_is_employee x participant2_action x is_commented_by_connections
+
+
+- participant2_is_employee x participant2_action x is_liked_by_connections
+
+
+
+- participant2_is_employee x participant2_action x participant[1345]_action
+
+
+- participant2_is_employee x participant2_action x participant[14]_focus
+
+
+- participant2_is_employee x participant2_action x participant[13]_is_employee
+
+
+
+- participant2_is_employee x participant3_action x is_commented_by_connections
+
+
+- participant2_is_employee x participant3_action x is_liked_by_connections
+
+
+- participant2_is_employee x participant3_action x number_of_comments
+
+
+- participant2_is_employee x participant3_action x participant[124]_action
+
+
+- participant2_is_employee x participant3_action x participant1_is_employee
+
+
+- participant2_is_employee x participant3_action x participant[34]_focus
+
+
+- participant2_is_employee x participant3_is_employee x participant[25]_action
+
+
+- participant2_is_employee x participant3_is_employee x participant3_focus
+
+
+- participant2_is_employee x participant4_focus x is_commented_by_connections
+
+
+- participant2_is_employee x participant4_focus x is_liked_by_connections
+
+
+- participant2_is_employee x participant4_focus x participant1_focus
+
+
+- participant2_is_employee x participant4_focus x participant[134]_is_employee
+
+
+- participant2_is_employee x participant4_focus x participant[234]_action
+
+
+- participant2_is_employee x participant4_is_employee x is_commented_by_connections
+
+
+- participant2_is_employee x participant4_is_employee x is_liked_by_connections
+
+
+- participant2_is_employee x participant4_is_employee x participant2_action
+
+
+- participant2_is_employee x participant4_is_employee x participant4_focus
+
+
+- participant2_is_employee x participant5_action x is_commented_by_connections
+
+
+
+- participant2_is_employee x participant5_action x is_liked_by_connections
+
+
+- participant2_is_employee x participant5_action x number_of_comments
+
+
+- participant2_is_employee x participant5_action x participant2_action
+
+
+
+- participant2_is_employee x participant5_action x participant[345]_focus
+
+
+Participant2_is_in_connections:
+- participant2_is_in_connections x participant2_action x is_liked_by_connections
+
+
+- participant2_is_in_connections x participant2_action x number_of_likes
+
+
+- participant2_is_in_connections x participant2_action x participant1_action
+
+
+- participant2_is_in_connections x participant2_action x participant[134]_focus
+
+
+- participant2_is_in_connections x participant2_action x participant[13]_is_employee
+
+
+
+- participant2_is_in_connections x participant2_action x participant[2345]_influence
+
+
+- participant2_is_in_connections x participant3_action x is_liked_by_connections
+
+
+- participant2_is_in_connections x participant3_action x number_of_likes
+
+
+- participant2_is_in_connections x participant3_action x participant[14]_action
+
+
+- participant2_is_in_connections x participant3_action x participant[12345]_is_employee
+
+
+- participant2_is_in_connections x participant3_action x participant[2345]_influence
+
+
+- participant2_is_in_connections x participant3_action x participant[34]_focus
+
+
+- participant2_is_in_connections x participant3_is_employee x participant[2345]_action
+
+
+- participant2_is_in_connections x participant3_is_employee x participant4_focus
+
+
+
+
+- participant2_is_in_connections x participant4_action x is_commented_by_connections
+
+
+- participant2_is_in_connections x participant4_action x is_liked_by_connections
+
+
+- participant2_is_in_connections x participant4_action x number_of_comments
+
+
+- participant2_is_in_connections x participant4_action x number_of_likes
+
+
+- participant2_is_in_connections x participant4_action x participant[123]_action
+
+
+- participant2_is_in_connections x participant4_action x participant[134]_focus
+
+
+- participant2_is_in_connections x participant4_action x participant[12345]_is_employee
+
+
+- participant2_is_in_connections x participant4_action x participant[345]_influence
+
+
+- participant2_is_in_connections x participant4_is_employee x participant[245]_action
+
+
+- participant2_is_in_connections x participant4_is_employee x participant4_focus
+
+
+- participant2_is_in_connections x participant5_action x is_commented_by_connections
+
+
+- participant2_is_in_connections x participant5_action x is_liked_by_connections
+
+
+- participant2_is_in_connections x participant5_action x number_of_comments
+
+
+- participant2_is_in_connections x participant5_action x number_of_likes
+
+
+- participant2_is_in_connections x participant5_action x participant[2345]_is_employee
+
+
+- participant2_is_in_connections x participant5_action x participant[345]_focus
+
+
+- participant2_is_in_connections x participant5_action x participant[345]_influence
+
+
+Participant3_action:
+- participant3_action x is_commented_by_connections x participant[125]_action
+
+
+
+- participant3_action x is_commented_by_connections x participant[34]_focus
+
+
+- participant3_action x is_liked_by_connections x participant[1245]_action
+
+
+- participant3_action x is_liked_by_connections x participant[13]_focus
+
+
+
+
+
+
+
+
+
+- participant3_action x is_liked_by_connections x participant[234]_is_employee
+
+
+- participant3_action x participant1_action x is_commented_by_connections
+
+
+- participant3_action x participant1_action x is_liked_by_connections
+
+
+
+
+
+
+
+- participant3_action x participant1_action x number_of_comments
+
+
+- participant3_action x participant1_action x participant[34]_is_employee
+
+
+- participant3_action x participant1_is_employee x is_commented_by_connections
+
+
+
+
+
+
+
+- participant3_action x participant1_is_employee x is_liked_by_connections
+
+
+- participant3_action x participant1_is_employee x participant[134]_focus
+
+
+- participant3_action x participant1_is_employee x participant[23]_is_employee
+
+
+
+
+
+
+
+
+- participant3_action x participant2_action x is_commented_by_connections
+
+
+- participant3_action x participant2_action x is_liked_by_connections
+
+
+- participant3_action x participant2_action x number_of_comments
+
+
+
+
+
+
+
+- participant3_action x participant2_action x participant[145]_action
+
+
+- participant3_action x participant2_action x participant[134]_focus
+
+
+- participant3_action x participant2_action x participant[1234]_is_employee
+
+
+
+
+
+
+
+
+- participant3_action x participant2_is_employee x is_commented_by_connections
+
+
+- participant3_action x participant2_is_employee x is_liked_by_connections
+
+
+- participant3_action x participant2_is_employee x participant[14]_focus
+
+
+
+
+
+
+
+
+- participant3_action x participant2_is_employee x participant[25]_action
+
+
+- participant3_action x participant2_is_employee x participant[34]_is_employee
+
+
+- participant3_action x participant3_focus x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant3_action x participant3_focus x is_liked_by_connections
+
+
+- participant3_action x participant3_focus x participant[14]_action
+
+
+- participant3_action x participant3_focus x participant1_focus
+
+
+
+
+
+
+
+
+- participant3_action x participant3_focus x participant[23]_is_employee
+
+
+- participant3_action x participant3_is_employee x is_commented_by_connections
+
+
+- participant3_action x participant3_is_employee x is_liked_by_connections
+
+
+
+
+
+
+
+- participant3_action x participant3_is_employee x participant[245]_is_employee
+
+
+- participant3_action x participant3_is_employee x participant[34]_focus
+
+
+- participant3_action x participant3_is_employee x participant[45]_action
+
+
+
+
+
+
+
+
+- participant3_action x participant4_action x is_commented_by_connections
+
+
+- participant3_action x participant4_action x number_of_likes
+
+
+- participant3_action x participant4_action x participant2_action
+
+
+
+
+
+
+
+- participant3_action x participant4_action x participant[134]_focus
+
+
+- participant3_action x participant4_action x participant[12345]_is_employee
+
+
+- participant3_action x participant4_action x participant[45]_influence
+
+
+
+
+
+
+
+- participant3_action x participant4_focus x is_commented_by_connections
+
+
+- participant3_action x participant4_focus x is_liked_by_connections
+
+
+- participant3_action x participant4_focus x participant1_focus
+
+
+
+
+
+
+
+
+- participant3_action x participant4_focus x participant[234]_is_employee
+
+
+- participant3_action x participant4_is_employee x is_commented_by_connections
+
+
+- participant3_action x participant4_is_employee x participant[45]_action
+
+
+
+
+
+
+
+
+- participant3_action x participant5_action x is_commented_by_connections
+
+
+- participant3_action x participant5_action x is_liked_by_connections
+
+
+- participant3_action x participant5_action x number_of_likes
+
+
+
+
+
+
+
+- participant3_action x participant5_action x participant[34]_focus
+
+
+- participant3_action x participant5_action x participant[45]_influence
+
+
+- participant3_action x participant5_action x participant[45]_is_employee
+
+
+
+
+
+
+
+- participant3_action x participant5_is_employee x is_commented_by_connections
+
+
+- participant3_action x participant5_is_employee x participant[45]_action
+
+
+Participant3_focus:
+- participant3_focus x is_commented_by_connections x participant[123]_action
+
+
+
+
+
+
+
+
+
+- participant3_focus x is_commented_by_connections x participant4_focus
+
+
+- participant3_focus x is_liked_by_connections x participant[12345]_action
+
+
+- participant3_focus x is_liked_by_connections x participant4_focus
+
+
+- participant3_focus x participant1_action x is_commented_by_connections
+
+
+
+
+
+- participant3_focus x participant1_action x number_of_comments
+
+
+- participant3_focus x participant1_action x participant3_action
+
+
+- participant3_focus x participant1_focus x is_commented_by_connections
+
+
+- participant3_focus x participant1_focus x is_liked_by_connections
+
+
+
+
+
+- participant3_focus x participant1_focus x participant[123]_is_employee
+
+
+- participant3_focus x participant1_focus x participant3_action
+
+
+- participant3_focus x participant1_focus x participant4_focus
+
+
+- participant3_focus x participant1_is_employee x is_commented_by_connections
+
+
+
+
+
+- participant3_focus x participant1_is_employee x is_liked_by_connections
+
+
+- participant3_focus x participant1_is_employee x participant[14]_focus
+
+
+- participant3_focus x participant1_is_employee x participant[23]_is_employee
+
+
+- participant3_focus x participant1_is_employee x participant3_action
+
+
+
+
+
+- participant3_focus x participant2_action x is_commented_by_connections
+
+
+- participant3_focus x participant2_action x number_of_comments
+
+
+- participant3_focus x participant2_action x participant[12345]_is_employee
+
+
+- participant3_focus x participant2_action x participant[2345]_influence
+
+
+
+
+- participant3_focus x participant2_action x participant[345]_action
+
+
+- participant3_focus x participant2_is_employee x participant[235]_action
+
+
+- participant3_focus x participant2_is_employee x participant4_focus
+
+
+- participant3_focus x participant3_is_employee x is_liked_by_connections
+
+
+
+
+
+- participant3_focus x participant3_is_employee x participant2_action
+
+
+- participant3_focus x participant3_is_employee x participant4_focus
+
+
+- participant3_focus x participant4_action x is_liked_by_connections
+
+
+- participant3_focus x participant4_action x number_of_comments
+
+
+
+
+
+- participant3_focus x participant4_action x number_of_likes
+
+
+- participant3_focus x participant4_action x participant[125]_action
+
+
+- participant3_focus x participant4_action x participant[14]_focus
+
+
+- participant3_focus x participant4_action x participant1_is_employee
+
+
+
+
+
+- participant3_focus x participant4_action x participant[45]_influence
+
+
+Participant3_gender:
+- participant3_gender x participant2_action x participant[134]_focus
+
+
+- participant3_gender x participant2_action x participant[1234]_is_employee
+
+
+- participant3_gender x participant3_action x is_liked_by_connections
+
+
+- participant3_gender x participant3_action x participant1_action
+
+
+- participant3_gender x participant3_action x participant[1234]_is_employee
+
+- participant3_gender x participant3_action x participant[34]_focus
+
+
+- participant3_gender x participant3_is_employee x participant[2345]_action
+
+
+- participant3_gender x participant3_is_employee x participant[34]_focus
+
+
+- participant3_gender x participant4_action x is_liked_by_connections
+
+
+- participant3_gender x participant4_action x number_of_likes
+
+
+- participant3_gender x participant4_action x participant[134]_focus
+
+
+- participant3_gender x participant4_action x participant[12345]_is_employee
+
+
+- participant3_gender x participant4_is_employee x is_liked_by_connections
+
+
+- participant3_gender x participant4_is_employee x participant2_is_employee
+
+
+- participant3_gender x participant4_is_employee x participant[345]_action
+
+
+- participant3_gender x participant5_action x is_liked_by_connections
+
+
+- participant3_gender x participant5_action x number_of_likes
+
+
+- participant3_gender x participant5_action x participant[2345]_is_employee
+
+
+- participant3_gender x participant5_action x participant[34]_focus
+
+
+- participant3_gender x participant5_is_employee x participant[23]_is_employee
+
+
+- participant3_gender x participant5_is_employee x participant[45]_action
+
+
+- participant3_gender x participant5_is_employee x participant5_focus
+
+
+Participant3_is_employee:
+- participant3_is_employee x is_commented_by_connections x participant[1235]_action
+
+
+- participant3_is_employee x is_commented_by_connections x participant3_focus
+
+
+- participant3_is_employee x is_liked_by_connections x participant[1345]_action
+
+
+- participant3_is_employee x is_liked_by_connections x participant[13]_focus
+
+
+- participant3_is_employee x is_liked_by_connections x participant[24]_is_employee
+
+
+- participant3_is_employee x participant2_action x is_commented_by_connections
+
+
+- participant3_is_employee x participant2_action x is_liked_by_connections
+
+
+- participant3_is_employee x participant2_action x number_of_comments
+
+
+- participant3_is_employee x participant2_action x participant[1345]_action
+
+
+- participant3_is_employee x participant2_action x participant[124]_is_employee
+
+
+- participant3_is_employee x participant2_action x participant[34]_focus
+
+
+- participant3_is_employee x participant2_is_employee x is_liked_by_connections
+
+
+- participant3_is_employee x participant2_is_employee x participant[14]_focus
+
+
+- participant3_is_employee x participant2_is_employee x participant[25]_action
+
+
+- participant3_is_employee x participant2_is_employee x participant4_is_employee
+
+
+- participant3_is_employee x participant3_action x is_commented_by_connections
+
+
+
+- participant3_is_employee x participant3_action x is_liked_by_connections
+
+
+- participant3_is_employee x participant3_action x participant[1245]_is_employee
+
+
+- participant3_is_employee x participant3_action x participant[245]_action
+
+
+- participant3_is_employee x participant3_action x participant[34]_focus
+
+
+- participant3_is_employee x participant3_focus x is_commented_by_connections
+
+
+- participant3_is_employee x participant3_focus x participant[14]_action
+
+
+- participant3_is_employee x participant3_focus x participant1_focus
+
+
+- participant3_is_employee x participant3_focus x participant[12]_is_employee
+
+
+- participant3_is_employee x participant3_focus x participant[345]_influence
+
+
+- participant3_is_employee x participant4_action x is_commented_by_connections
+
+
+- participant3_is_employee x participant4_action x is_liked_by_connections
+
+
+- participant3_is_employee x participant4_action x participant[123]_action
+
+
+- participant3_is_employee x participant4_action x participant2_is_employee
+
+
+- participant3_is_employee x participant4_action x participant3_focus
+
+
+- participant3_is_employee x participant4_focus x is_commented_by_connections
+
+
+- participant3_is_employee x participant4_focus x is_liked_by_connections
+
+
+- participant3_is_employee x participant4_focus x participant1_focus
+
+
+- participant3_is_employee x participant4_focus x participant[124]_is_employee
+
+
+- participant3_is_employee x participant4_focus x participant[2345]_action
+
+
+- participant3_is_employee x participant4_is_employee x is_commented_by_connections
+
+
+- participant3_is_employee x participant4_is_employee x is_liked_by_connections
+
+- participant3_is_employee x participant4_is_employee x participant[23]_action
+
+
+- participant3_is_employee x participant4_is_employee x participant2_is_employee
+
+
+- participant3_is_employee x participant5_action x is_commented_by_connections
+
+
+- participant3_is_employee x participant5_action x is_liked_by_connections
+
+
+- participant3_is_employee x participant5_action x participant2_is_employee
+
+
+- participant3_is_employee x participant5_action x participant3_action
+
+
+- participant3_is_employee x participant5_action x participant[35]_focus
+
+
+- participant3_is_employee x participant5_is_employee x is_commented_by_connections
+
+
+- participant3_is_employee x participant5_is_employee x participant[234]_action
+
+
+- participant3_is_employee x participant5_is_employee x participant2_is_employee
+
+
+- participant3_is_employee x participant5_is_employee x participant[45]_focus
+
+
+Participant3_is_in_connections:
+- participant3_is_in_connections x participant2_action x is_liked_by_connections
+
+
+- participant3_is_in_connections x participant2_action x number_of_likes
+
+
+- participant3_is_in_connections x participant2_action x participant1_action
+
+
+- participant3_is_in_connections x participant2_action x participant[134]_focus
+
+
+
+- participant3_is_in_connections x participant2_action x participant[12345]_is_employee
+
+
+- participant3_is_in_connections x participant2_action x participant[2345]_influence
+
+
+- participant3_is_in_connections x participant3_action x is_liked_by_connections
+
+
+- participant3_is_in_connections x participant3_action x number_of_likes
+
+
+- participant3_is_in_connections x participant3_action x participant1_action
+
+
+- participant3_is_in_connections x participant3_action x participant[12345]_is_employee
+
+
+- participant3_is_in_connections x participant3_action x participant[2345]_influence
+
+
+- participant3_is_in_connections x participant3_action x participant[34]_focus
+
+
+- participant3_is_in_connections x participant4_action x is_commented_by_connections
+
+
+- participant3_is_in_connections x participant4_action x is_liked_by_connections
+
+
+- participant3_is_in_connections x participant4_action x number_of_likes
+
+
+- participant3_is_in_connections x participant4_action x participant[134]_focus
+
+
+- participant3_is_in_connections x participant4_action x participant[12345]_is_employee
+
+
+- participant3_is_in_connections x participant4_action x participant[45]_influence
+
+
+- participant3_is_in_connections x participant4_is_employee x is_commented_by_connections
+
+
+- participant3_is_in_connections x participant4_is_employee x is_liked_by_connections
+
+
+- participant3_is_in_connections x participant4_is_employee x participant[2345]_action
+
+
+- participant3_is_in_connections x participant4_is_employee x participant2_is_employee
+
+
+- participant3_is_in_connections x participant5_action x is_commented_by_connections
+
+
+- participant3_is_in_connections x participant5_action x is_liked_by_connections
+
+
+- participant3_is_in_connections x participant5_action x number_of_likes
+
+
+
+- participant3_is_in_connections x participant5_action x participant[2345]_is_employee
+
+
+- participant3_is_in_connections x participant5_action x participant[345]_focus
+
+
+- participant3_is_in_connections x participant5_is_employee x is_commented_by_connections
+
+
+
+- participant3_is_in_connections x participant5_is_employee x participant[2345]_action
+
+
+- participant3_is_in_connections x participant5_is_employee x participant[23]_is_employee
+
+
+- participant3_is_in_connections x participant5_is_employee x participant5_focus
+
+
+Participant4_action:
+- participant4_action x is_commented_by_connections x participant[1235]_action
+
+
+- participant4_action x is_commented_by_connections x participant[34]_focus
+
+
+- participant4_action x is_liked_by_connections x participant[125]_action
+
+
+
+
+
+
+
+
+- participant4_action x is_liked_by_connections x participant[134]_focus
+
+
+- participant4_action x is_liked_by_connections x participant[1234]_is_employee
+
+
+- participant4_action x participant1_action x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant1_action x is_mentions_connections
+
+
+- participant4_action x participant1_action x number_of_comments
+
+
+- participant4_action x participant1_action x participant[34]_is_employee
+
+
+
+
+
+
+
+- participant4_action x participant1_focus x is_commented_by_connections
+
+
+- participant4_action x participant1_focus x is_liked_by_connections
+
+
+- participant4_action x participant1_focus x participant[123]_is_employee
+
+
+
+
+
+
+
+- participant4_action x participant1_focus x participant[34]_focus
+
+
+- participant4_action x participant1_is_employee x is_commented_by_connections
+
+
+- participant4_action x participant1_is_employee x is_liked_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant1_is_employee x participant[134]_focus
+
+
+- participant4_action x participant1_is_employee x participant[23]_is_employee
+
+
+- participant4_action x participant2_action x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant2_action x is_liked_by_connections
+
+
+- participant4_action x participant2_action x participant[15]_action
+
+
+- participant4_action x participant2_action x participant[134]_focus
+
+
+
+
+
+
+
+
+- participant4_action x participant2_action x participant[12345]_is_employee
+
+
+- participant4_action x participant2_is_employee x is_commented_by_connections
+
+
+- participant4_action x participant2_is_employee x is_liked_by_connections
+
+
+
+
+
+
+
+- participant4_action x participant2_is_employee x participant[14]_focus
+
+
+- participant4_action x participant2_is_employee x participant[25]_action
+
+
+- participant4_action x participant2_is_employee x participant[34]_is_employee
+
+
+
+
+
+
+
+
+- participant4_action x participant3_action x is_commented_by_connections
+
+
+- participant4_action x participant3_action x is_liked_by_connections
+
+
+- participant4_action x participant3_action x participant[12345]_is_employee
+
+
+
+
+
+
+
+- participant4_action x participant3_action x participant[34]_focus
+
+
+- participant4_action x participant3_focus x is_commented_by_connections
+
+
+- participant4_action x participant3_focus x is_liked_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant3_focus x participant1_action
+
+
+- participant4_action x participant3_focus x participant1_focus
+
+
+- participant4_action x participant3_focus x participant[123]_is_employee
+
+
+
+
+
+
+
+
+- participant4_action x participant3_is_employee x is_liked_by_connections
+
+
+- participant4_action x participant3_is_employee x participant[25]_action
+
+
+- participant4_action x participant3_is_employee x participant[245]_is_employee
+
+
+
+
+
+
+
+
+- participant4_action x participant3_is_employee x participant[34]_focus
+
+
+- participant4_action x participant4_focus x is_commented_by_connections
+
+
+- participant4_action x participant4_focus x is_liked_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant4_focus x participant1_focus
+
+
+- participant4_action x participant4_focus x participant[1234]_is_employee
+
+
+- participant4_action x participant4_is_employee x is_commnted_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant4_is_employee x is_liked_by_connections
+
+
+- participant4_action x participant4_is_employee x participant[235]_is_employee
+
+
+- participant4_action x participant4_is_employee x participant4_focus
+
+
+
+
+
+
+
+
+- participant4_action x participant5_action x is_commented_by_connections
+
+
+- participant4_action x participant5_action x is_liked_by_connections
+
+
+- participant4_action x participant5_action x number_of_likes
+
+
+
+
+
+
+
+- participant4_action x participant5_action x participant[2345]_is_employee
+
+
+- participant4_action x participant5_action x participant[345]_focus
+
+
+- participant4_action x participant5_is_employee x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant4_action x participant5_is_employee x participant[234]_is_employee
+
+
+- participant4_action x participant5_is_employee x participant[45]_focus
+
+
+Participant4_focus:
+- participant4_focus x is_commented_by_connections x participant[125]_action
+
+
+
+
+
+
+
+
+
+- participant4_focus x is_commented_by_connections x participant3_focus
+
+
+- participant4_focus x is_liked_by_connections x participant[1345]_action
+
+
+- participant4_focus x is_liked_by_connections x participant[13]_focus
+
+
+- participant4_focus x participant1_focus x is_commented_by_connections
+
+
+
+
+
+- participant4_focus x participant1_focus x is_liked_by_connections
+
+
+- participant4_focus x participant1_focus x participant[123]_is_employee
+
+
+- participant4_focus x participant1_focus x participant3_action
+
+
+- participant4_focus x participant1_focus x participant3_focus
+
+
+
+
+
+- participant4_focus x participant1_is_employee x is_commented_by_connections
+
+
+- participant4_focus x participant1_is_employee x is_liked_by_connections
+
+
+- participant4_focus x participant1_is_employee x participant[13]_focus
+
+
+- participant4_focus x participant1_is_employee x participant[23]_is_employee
+
+
+
+
+
+- participant4_focus x participant1_is_employee x participant3_action
+
+
+- participant4_focus x participant2_action x is_commented_by_connections
+
+
+- participant4_focus x participant2_action x is_liked_by_connections
+
+
+- participant4_focus x participant2_action x number_of_comments
+
+
+
+
+
+- participant4_focus x participant2_action x participant[1345]_action
+
+
+- participant4_focus x participant2_action x participant[13]_focus
+
+
+- participant4_focus x participant2_action x participant[12345]_is_employee
+
+
+- participant4_focus x participant2_is_employee x is_commented_by_connections
+
+
+
+
+
+- participant4_focus x participant2_is_employee x is_liked_by_connections
+
+
+- participant4_focus x participant2_is_employee x participant1_focus
+
+
+- participant4_focus x participant2_is_employee x participant[235]_action
+
+
+- participant4_focus x participant2_is_employee x participant[34]_is_employee
+
+
+
+
+
+- participant4_focus x participant3_action x is_liked_by_connections
+
+
+- participant4_focus x participant3_action x participant[1245]_action
+
+
+- participant4_focus x participant3_action x participant[1245]_is_employee
+
+
+- participant4_focus x participant3_action x participant3_focus
+
+
+
+
+
+- participant4_focus x participant3_is_employee x is_commented_by_connections
+
+
+- participant4_focus x participant3_is_employee x is_liked_by_connections
+
+
+- participant4_focus x participant3_is_employee x participant[245]_action
+
+
+- participant4_focus x participant3_is_employee x participant[245]_is_employee
+
+
+
+
+
+- participant4_focus x participant3_is_employee x participant3_focus
+
+
+- participant4_focus x participant4_action x is_commented_by_connections
+
+
+- participant4_focus x participant4_action x is_liked_by_connections
+
+
+- participant4_focus x participant4_action x participant[123]_action
+
+
+
+
+
+- participant4_focus x participant4_action x participant[12]_is_employee
+
+
+- participant4_focus x participant4_action x participant3_focus
+
+
+- participant4_focus x participant4_is_employee x is_commented_by_connections
+
+
+- participant4_focus x participant4_is_employee x is_liked_by_connections
+
+
+
+
+
+- participant4_focus x participant4_is_employee x participant2_action
+
+
+- participant4_focus x participant4_is_employee x participant2_is_employee
+
+
+- participant4_focus x participant5_action x is_liked_by_connections
+
+
+- participant4_focus x participant5_action x number_of_comments
+
+
+
+
+
+- participant4_focus x participant5_action x participant[24]_action
+
+
+- participant4_focus x participant5_action x participant2_is_employee
+
+
+- participant4_focus x participant5_action x participant[35]_focus
+
+
+Participant4_gender:
+- participant4_gender x participant3_action x is_commented_by_connections
+
+
+- participant4_gender x participant3_action x is_liked_by_connections
+
+
+- participant4_gender x participant3_action x number_of_comments
+
+
+- participant4_gender x participant3_action x number_of_likes
+
+
+
+- participant4_gender x participant3_action x participant[124]_action
+
+
+- participant4_gender x participant3_action x participant[34]_focus
+
+
+- participant4_gender x participant3_is_employee x is_commented_by_connections
+
+
+
+
+
+
+- participant4_gender x participant3_is_employee x participant[2345]_action
+
+
+- participant4_gender x participant3_is_employee x participant[34]_focus
+
+
+- participant4_gender x participant3_is_employee x participant[45]_is_employee
+
+
+
+
+
+- participant4_gender x participant4_action x is_commented_by_connections
+
+
+- participant4_gender x participant4_action x is_liked_by_connections
+
+
+- participant4_gender x participant4_action x number_of_comments
+
+
+- participant4_gender x participant4_action x number_of_likes
+
+
+- participant4_gender x participant4_action x participant[1235]_action
+
+
+- participant4_gender x participant4_action x participant[34]_focus
+
+
+
+
+- participant4_gender x participant4_focus x is_commented_by_connections
+
+
+- participant4_gender x participant4_focus x is_liked_by_connections
+
+
+- participant4_gender x participant4_focus x participant1_focus
+
+
+
+
+- participant4_gender x participant4_focus x participant[1234]_is_employee
+
+
+- participant4_gender x participant4_focus x participant[2345]_action
+
+
+- participant4_gender x participant4_is_employee x participant[245]_action
+
+
+
+
+- participant4_gender x participant4_is_employee x participant4_focus
+
+
+- participant4_gender x participant5_action x is_commented_by_connections
+
+
+- participant4_gender x participant5_action x is_liked_by_connections
+
+
+
+- participant4_gender x participant5_action x number_of_comments
+
+
+- participant4_gender x participant5_action x number_of_likes
+
+
+- participant4_gender x participant5_action x participant[234]_action
+
+
+
+- participant4_gender x participant5_action x participant[2345]_is_employee
+
+
+- participant4_gender x participant5_action x participant[345]_focus
+
+
+- participant4_gender x participant5_is_employee x is_commented_by_connections
+
+
+
+- participant4_gender x participant5_is_employee x participant[2345]_action
+
+
+- participant4_gender x participant5_is_employee x participant[234]_is_employee
+
+
+- participant4_gender x participant5_is_employee x participant[45]_focus
+
+
+
+
+Participant4_is_employee:
+- participant4_is_employee x is_commented_by_connections x participant[123]_action
+
+
+- participant4_is_employee x is_commented_by_connections x participant3_focus
+
+
+- participant4_is_employee x is_liked_by_connections x participant[12345]_action
+
+
+
+
+- participant4_is_employee x is_liked_by_connections x participant[23]_is_employee
+
+
+- participant4_is_employee x is_liked_by_connections x participant3_focus
+
+
+- participant4_is_employee x participant2_action x is_commented_by_connections
+
+
+
+- participant4_is_employee x participant2_action x is_liked_by_connections
+
+
+- participant4_is_employee x participant2_action x number_of_comments
+
+
+- participant4_is_employee x participant2_action x participant[14]_action
+
+
+- participant4_is_employee x participant2_action x participant[13]_focus
+
+
+- participant4_is_employee x participant2_action x participant[1235]_is_employee
+
+
+- participant4_is_employee x participant2_is_employee x is_commented_by_connections
+
+
+
+- participant4_is_employee x participant2_is_employee x is_liked_by_connections
+
+
+- participant4_is_employee x participant2_is_employee x participant[14]_focus
+
+
+- participant4_is_employee x participant2_is_employee x participant2_action
+
+
+
+
+
+- participant4_is_employee x participant2_is_employee x participant3_is_employee
+
+
+- participant4_is_employee x participant3_action x is_commented_by_connections
+
+
+- participant4_is_employee x participant3_action x is_liked_by_connections
+
+
+
+
+- participant4_is_employee x participant3_action x number_of_comments
+
+
+- participant4_is_employee x participant3_action x participant[145]_action
+
+
+- participant4_is_employee x participant3_action x participant[1235]_is_employee
+
+
+
+- participant4_is_employee x participant3_action x participant3_focus
+
+
+- participant4_is_employee x participant3_is_employee x is_commented_by_connections
+
+
+- participant4_is_employee x participant3_is_employee x is_liked_by_connections
+
+
+- participant4_is_employee x participant3_is_employee x participant[234]_action
+
+
+- participant4_is_employee x participant3_is_employee x participant[25]_is_employee
+
+
+- participant4_is_employee x participant3_is_employee x participant3_focus
+
+
+
+
+- participant4_is_employee x participant4_action x is_commented_by_connections
+
+
+- participant4_is_employee x participant4_action x is_liked_by_connections
+
+
+- participant4_is_employee x participant4_action x participant[1235]_action
+
+
+- participant4_is_employee x participant4_action x participant[235]_is_employee
+
+
+- participant4_is_employee x participant4_action x participant[34]_focus
+
+
+- participant4_is_employee x participant4_focus x is_commented_by_connections
+
+
+- participant4_is_employee x participant4_focus x is_liked_by_connections
+
+
+- participant4_is_employee x participant4_focus x participant1_focus
+
+
+- participant4_is_employee x participant4_focus x participant[123]_is_employee
+
+
+
+- participant4_is_employee x participant4_focus x participant[234]_action
+
+
+- participant4_is_employee x participant5_action x is_commented_by_connections
+
+
+- participant4_is_employee x participant5_action x is_liked_by_connections
+
+
+
+- participant4_is_employee x participant5_action x number_of_comments
+
+
+- participant4_is_employee x participant5_action x number_of_likes
+
+
+- participant4_is_employee x participant5_action x participant[234]_action
+
+
+- participant4_is_employee x participant5_action x participant[235]_is_employee
+
+
+- participant4_is_employee x participant5_action x participant[35]_focus
+
+
+- participant4_is_employee x participant5_is_employee x is_commented_by_connections
+
+
+- participant4_is_employee x participant5_is_employee x participant[2345]_action
+
+
+- participant4_is_employee x participant5_is_employee x participant[23]_is_employee
+
+
+- participant4_is_employee x participant5_is_employee x participant[45]_focus
+
+
+Participant4_is_in_connections:
+- participant4_is_in_connections x participant3_action x is_commented_by_connections
+
+
+- participant4_is_in_connections x participant3_action x is_liked_by_connections
+
+
+- participant4_is_in_connections x participant3_action x number_of_likes
+
+
+- participant4_is_in_connections x participant3_action x participant[124]_action
+
+
+- participant4_is_in_connections x participant3_action x participant[12345]_is_employee
+
+
+- participant4_is_in_connections x participant3_action x participant[2345]_influence
+
+
+- participant4_is_in_connections x participant3_action x participant[34]_focus
+
+
+- participant4_is_in_connections x participant3_is_employee x is_commented_by_connections
+
+
+- participant4_is_in_connections x participant3_is_employee x is_liked_by_connections
+
+
+
+- participant4_is_in_connections x participant3_is_employee x number_of_comments
+
+
+- participant4_is_in_connections x participant3_is_employee x participant[2345]_action
+
+
+- participant4_is_in_connections x participant3_is_employee x participant[245]_is_employee
+
+
+
+- participant4_is_in_connections x participant3_is_employee x participant[34]_focus
+
+
+- participant4_is_in_connections x participant4_action x is_commented_by_connections
+
+
+- participant4_is_in_connections x participant4_action x is_liked_by_connections
+
+
+
+
+- participant4_is_in_connections x participant4_action x number_of_comments
+
+
+- participant4_is_in_connections x participant4_action x number_of_likes
+
+
+- participant4_is_in_connections x participant4_action x participant[123]_action
+
+
+- participant4_is_in_connections x participant4_action x participant[134]_focus
+
+
+- participant4_is_in_connections x participant4_action x participant[12345]_is_employee
+
+
+- participant4_is_in_connections x participant4_is_employee x is_commented_by_connections
+
+
+- participant4_is_in_connections x participant4_is_employee x is_liked_by_connections
+
+
+- participant4_is_in_connections x participant4_is_employee x number_of_comments
+
+
+- participant4_is_in_connections x participant4_is_employee x number_of_likes
+
+
+- participant4_is_in_connections x participant4_is_employee x participant[2345]_action
+
+
+- participant4_is_in_connections x participant4_is_employee x participant[235]_is_employee
+
+
+- participant4_is_in_connections x participant4_is_employee x participant4_focus
+
+
+
+
+- participant4_is_in_connections x participant5_action x is_commented_by_connections
+
+
+- participant4_is_in_connections x participant5_action x is_liked_by_connections
+
+
+- participant4_is_in_connections x participant5_action x number_of_comments
+
+
+
+- participant4_is_in_connections x participant5_action x number_of_likes
+
+
+- participant4_is_in_connections x participant5_action x participant[23]_action
+
+
+- participant4_is_in_connections x participant5_action x participant[2345]_is_employee
+
+
+
+
+
+- participant4_is_in_connections x participant5_action x participant[345]_focus
+
+
+- participant4_is_in_connections x participant5_is_employee x is_commented_by_connections
+
+
+- participant4_is_in_connections x participant5_is_employee x participant[2345]_action
+
+
+
+- participant4_is_in_connections x participant5_is_employee x participant[234]_is_employee
+
+
+- participant4_is_in_connections x participant5_is_employee x participant[45]_focus
+
+
+Participant5_action:
+- participant5_action x is_commented_by_connections x participant[123]_action
+
+
+
+- participant5_action x is_commented_by_connections x  participant[34]_focus
+
+
+- participant5_action x is_liked_by_connections x participant[1234]_action
+
+
+- participant5_action x is_liked_by_connections x participant[134]_focus
+
+
+
+
+
+
+
+
+
+- participant5_action x is_liked_by_connections x participant[1234]_is_employee
+
+
+- participant5_action x participant2_action x is_commented_by_connections
+
+
+- participant5_action x participant2_action x is_liked_by_connections
+
+
+
+
+
+
+
+- participant5_action x participant2_action x is_mentions_connections
+
+
+- participant5_action x participant2_action x participant1_action
+
+
+- participant5_action x participant2_action x participant[134]_focus
+
+
+
+
+
+
+
+
+- participant5_action x participant2_action x participant[12345]_is_employee
+
+
+- participant5_action x participant2_is_employee x is_commented_by_connections
+
+
+- participant5_action x participant2_is_employee x is_liked_by_connections
+
+
+
+
+
+
+
+- participant5_action x participant2_is_employee x participant[14]_focus
+
+
+- participant5_action x participant2_is_employee x participant2_action
+
+
+- participant5_action x participant2_is_employee x participant[34]_is_employee
+
+
+
+
+
+
+
+
+- participant5_action x participant3_action x is_commented_by_connections
+
+
+- participant5_action x participant3_action x is_liked_by_connections
+
+
+- participant5_action x participant3_action x number_of_comments
+
+
+
+
+
+
+
+- participant5_action x participant3_action x number_of_likes
+
+
+- participant5_action x participant3_action x participant1_action
+
+
+- participant5_action x participant3_action x participant[12345]_is_employee
+
+
+
+
+
+
+
+- participant5_action x participant3_action x participant[34]_focus
+
+
+- participant5_action x participant3_focus x is_commented_by_connections
+
+
+- participant5_action x participant3_focus x is_liked_by_connections
+
+
+
+
+
+
+
+
+- participant5_action x participant3_focus x participant[12]_action
+
+
+- participant5_action x participant3_focus x participant1_focus
+
+
+- participant5_action x participant3_focus x participant[123]_is_employee
+
+
+
+
+
+
+
+
+- participant5_action x participant3_is_employee x is_commented_by_connections
+
+
+- participant5_action x participant3_is_employee x is_liked_by_connections
+
+
+- participant5_action x participant3_is_employee x participant[23]_action
+
+
+
+
+
+
+
+
+- participant5_action x participant3_is_employee x participant[245]_is_employee
+
+
+- participant5_action x participant3_is_employee x participant[34]_focus
+
+
+- participant5_action x participant4_action x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant5_action x participant4_action x is_liked_by_connections
+
+
+- participant5_action x participant4_action x number_of_comments
+
+
+- participant5_action x participant4_action x number_of_likes
+
+
+
+
+
+
+
+- participant5_action x participant4_action x participant1_action
+
+
+- participant5_action x participant4_action x participant[134]_focus
+
+
+- participant5_action x participant4_action x participant[12345]_is_employee
+
+
+
+
+
+
+
+
+- participant5_action x participant4_focus x is_commented_by_connections
+
+
+- participant5_action x participant4_focus x is_liked_by_connections
+
+
+- participant5_action x participant4_focus x participant1_focus
+
+
+
+
+
+
+
+
+- participant5_action x participant4_focus x participant[1234]_is_employee
+
+
+- participant5_action x participant4_focus x participant2_action
+
+
+- participant5_action x participant4_is_employee x is_commented_by_connections
+
+
+
+
+
+
+
+
+- participant5_action x participant4_is_employee x is_liked_by_connections
+
+
+- participant5_action x participant4_is_employee x participant[234]_action
+
+
+- participant5_action x participant4_is_employee x participant[235]_is_employee
+
+
+
+
+
+
+
+
+- participant5_action x participant4_is_employee x participant4_focus
+
+
+- participant5_action x participant5_focus x participant1_action
+
+
+- participant5_action x participant5_focus x participant[13]_is_employee
+
+
+
+
+
+
+
+
+- participant5_action x participant5_focus x participant[24]_focus
+
+
+- participant5_action x participant5_is_employee x is_commented_by_connections
+
+
+- participant5_action x participant5_is_employee x participant[23]_action
+
+
+
+
+
+
+
+
+- participant5_action x participant5_is_employee x participant[234]_is_employee
+
+
+- participant5_action x participant5_is_employee x participant4_focus
+
+
+Participant5_focus:
+- participant5_focus x participant1_action x is_commented_by_connections
+
+
+- participant5_focus x participant1_action x is_liked_by_connections
+
+
+- participant5_focus x participant1_action x number_of_comments
+
+
+- participant5_focus x participant1_action x number_of_likes
+
+
+- participant5_focus x participant1_action x participant[23]_action
+
+
+- participant5_focus x participant1_action x participant[34]_is_employee
+
+
+
+
+- participant5_focus x participant1_action x participant[45]_influence
+
+
+- participant5_focus x participant1_is_employee x is_commented_by_connections
+
+
+- participant5_focus x participant1_is_employee x is_liked_by_connections
+
+
+- participant5_focus x participant1_is_employee x participant[134]_focus
+
+
+
+
+
+
+- participant5_focus x participant1_is_employee x participant[23]_is_employee
+
+
+- participant5_focus x participant1_is_employee x participant3_action
+
+
+- participant5_focus x participant2_focus x participant2_action
+
+
+- participant5_focus x participant2_focus x participant2_is_employee
+
+
+
+
+- participant5_focus x participant3_action x is_commented_by_connections
+
+
+- participant5_focus x participant3_action x is_liked_by_connections
+
+
+- participant5_focus x participant3_action x number_of_comments
+
+
+- participant5_focus x participant3_action x number_of_likes
+
+
+
+
+
+- participant5_focus x participant3_action x participant[12345]_is_employee
+
+
+- participant5_focus x participant3_action x participant[245]_action
+
+
+- participant5_focus x participant3_action x participant[2345]_influence
+
+
+- participant5_focus x participant3_action x participant[34]_focus
+
+
+
+
+- participant5_focus x participant3_is_employee x is_liked_by_connections
+
+
+- participant5_focus x participant3_is_employee x participant[235]_action
+
+
+- participant5_focus x participant3_is_employee x participant[34]_focus
+
+
+- participant5_focus x participant4_focus x is_liked_by_connections
+
+
+
+
+
+- participant5_focus x participant4_focus x participant1_focus
+
+
+- participant5_focus x participant4_focus x participant[134]_is_employee
+
+
+- participant5_focus x participant4_focus x participant[2345]_action
+
+
+Participant5_gender:
+- participant5_gender x participant3_action x is_liked_by_connections
+
+
+- participant5_gender x participant3_action x participant[14]_action
+
+
+- participant5_gender x participant3_action x participant[12345]_is_employee
+
+
+- participant5_gender x participant3_action x participant[34]_focus
+
+
+
+
+- participant5_gender x participant3_is_employee x is_commented_by_connections
+
+
+- participant5_gender x participant3_is_employee x is_liked_by_connections
+
+
+- participant5_gender x participant3_is_employee x participant[2345]_action
+
+
+
+- participant5_gender x participant3_is_employee x participant[245]_is_employee
+
+
+- participant5_gender x participant3_is_employee x participant[34]_focus
+
+
+- participant5_gender x participant4_action x is_commented_by_connections
+
+
+- participant5_gender x participant4_action x is_liked_by_connections
+
+
+- participant5_gender x participant4_action x participant[123]_action
+
+
+- participant5_gender x participant4_action x participant[134]_focus
+
+
+
+
+- participant5_gender x participant4_action x participant[12345]_is_employee
+
+
+- participant5_gender x participant4_is_employee x is_commented_by_connections
+
+
+- participant5_gender x participant4_is_employee x is_liked_by_connections
+
+
+- participant5_gender x participant4_is_employee x participant[2345]_action
+
+
+- participant5_gender x participant4_is_employee x participant[235]_is_employee
+
+
+- participant5_gender x participant4_is_employee x participant4_focus
+
+
+
+- participant5_gender x participant5_action x is_commented_by_connections
+
+
+- participant5_gender x participant5_action x is_liked_by_connections
+
+
+- participant5_gender x participant5_action x participant[23]_action
+
+
+
+- participant5_gender x participant5_action x participant[2345]_is_employee
+
+
+- participant5_gender x participant5_action x participant[345]_focus
+
+
+- participant5_gender x participant5_is_employee x is_commented_by_connections
+
+
+- participant5_gender x participant5_is_employee x participant[2345]_action
+
+
+- participant5_gender x participant5_is_employee x participant[234]_is_employee
+
+
+- participant5_gender x participant5_is_employee x participant[45]_focus
+
+
+
+Participant5_is_employee:
+- participant5_is_employee x is_commented_by_connections x participant[123]_action
+
+
+- participant5_is_employee x is_commented_by_connections x participant[34]_focus
+
+
+- participant5_is_employee x participant2_action x is_commented_by_connections
+
+
+- participant5_is_employee x participant2_action x is_liked_by_connections
+
+
+- participant5_is_employee x participant2_action x number_of_comments
+
+
+- participant5_is_employee x participant2_action x participant[14]_action
+
+
+- participant5_is_employee x participant2_action x participant[134]_focus
+
+
+- participant5_is_employee x participant2_action x participant[1234]_is_employee
+
+
+- participant5_is_employee x participant2_is_employee x is_commented_by_connections
+
+
+- participant5_is_employee x participant2_is_employee x is_liked_by_connections
+
+
+- participant5_is_employee x participant2_is_employee x participant[14]_focus
+
+
+- participant5_is_employee x participant2_is_employee x participant[23]_action
+
+
+- participant5_is_employee x participant2_is_employee x participant[34]_is_employee
+
+
+- participant5_is_employee x participant3_action x is_commented_by_connections
+
+
+- participant5_is_employee x participant3_action x is_liked_by_connections
+
+
+- participant5_is_employee x participant3_action x number_of_comments
+
+
+- participant5_is_employee x participant3_action x number_of_likes
+
+
+- participant5_is_employee x participant3_action x participant[145]_action
+
+
+- participant5_is_employee x participant3_action x participant[1234]_is_employee
+
+
+- participant5_is_employee x participant3_action x participant[34]_focus
+
+
+- participant5_is_employee x participant3_is_employee x is_commented_by_connections
+
+
+- participant5_is_employee x participant3_is_employee x is_liked_by_connections
+
+
+- participant5_is_employee x participant3_is_employee x participant[234]_action
+
+
+- participant5_is_employee x participant3_is_employee x participant[24]_is_employee
+
+
+- participant5_is_employee x participant3_is_employee x participant[34]_focus
+
+
+- participant5_is_employee x participant4_action x is_commented_by_connections
+
+
+- participant5_is_employee x participant4_action x is_liked_by_connections
+
+
+- participant5_is_employee x participant4_action x number_of_comments
+
+
+- participant5_is_employee x participant4_action x number_of_likes
+
+
+- participant5_is_employee x participant4_action x participant[1235]_action
+
+
+- participant5_is_employee x participant4_action x participant[134]_focus
+
+
+- participant5_is_employee x participant4_action x participant[1234]_is_employee
+
+
+- participant5_is_employee x participant4_focus x is_commented_by_connections
+
+
+- participant5_is_employee x participant4_focus x is_liked_by_connections
+
+
+- participant5_is_employee x participant4_focus x participant1_focus
+
+
+- participant5_is_employee x participant4_focus x participant[1234]_is_employee
+
+
+- participant5_is_employee x participant4_focus x participant[234]_action
+
+
+- participant5_is_employee x participant4_is_employee x is_commented_by_connections
+
+
+- participant5_is_employee x participant4_is_employee x is_liked_by_connections
+
+
+- participant5_is_employee x participant4_is_employee x participant[234]_action
+
+
+- participant5_is_employee x participant4_is_employee x participant[23]_is_employee
+
+
+- participant5_is_employee x participant4_is_employee x participant4_focus
+
+
+- participant5_is_employee x participant5_action x is_commented_by_connections
+
+
+- participant5_is_employee x participant5_action x is_liked_by_connections
+
+
+- participant5_is_employee x participant5_action x participant[234]_action
+
+
+- participant5_is_employee x participant5_action x participant[234]_is_employee
+
+
+- participant5_is_employee x participant5_action x participant[345]_focus
+
+
+- participant5_is_employee x participant5_focus x participant1_action
+
+
+- participant5_is_employee x participant5_focus x participant[13]_is_employee
+
+
+- participant5_is_employee x participant5_focus x participant[24]_focus
+
+
+- participant5_is_in_connections x participant3_action x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant3_action x is_liked_by_connections
+
+
+- participant5_is_in_connections x participant3_action x number_of_likes
+
+
+- participant5_is_in_connections x participant3_action x participant[1245]_action
+
+
+- participant5_is_in_connections x participant3_action x participant[12345]_is_employee
+
+
+- participant5_is_in_connections x participant3_action x participant[2345]_influence
+
+
+- participant5_is_in_connections x participant3_action x participant[34]_focus
+
+
+- participant5_is_in_connections x participant3_is_employee x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant3_is_employee x is_liked_by_connections
+
+
+- participant5_is_in_connections x participant3_is_employee x number_of_comments
+
+
+- participant5_is_in_connections x participant3_is_employee x participant[2345]_action
+
+
+- participant5_is_in_connections x participant3_is_employee x participant[245]_is_employee
+
+
+- participant5_is_in_connections x participant3_is_employee x participant[34]_focus
+
+
+- participant5_is_in_connections x participant4_action x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant4_action x is_liked_by_connections
+
+
+- participant5_is_in_connections x participant4_action x participant[134]_focus
+
+
+- participant5_is_in_connections x participant4_action x participant[12345]_is_employee
+
+
+- participant5_is_in_connections x participant4_focus x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant4_focus x is_liked_by_connections
+
+
+- participant5_is_in_connections x participant4_focus x participant1_focus
+
+
+- participant5_is_in_connections x participant4_focus x participant[1234]_is_employee
+
+
+- participant5_is_in_connections x participant4_focus x participant[234]_action
+
+
+- participant5_is_in_connections x participant4_is_employee x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant4_is_employee x is_liked_by_connections
+
+
+- participant5_is_in_connections x participant4_is_employee x number_of_comments
+
+
+- participant5_is_in_connections x participant4_is_employee x participant[2345]_action
+
+
+- participant5_is_in_connections x participant4_is_employee x participant[235]_is_employee
+
+
+- participant5_is_in_connections x participant4_is_employee x participant4_focus
+
+
+- participant5_is_in_connections x participant5_action x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant5_action x is_liked_by_connections
+
+
+- participant5_is_in_connections x participant5_action x participant[2345]_is_employee
+
+
+- participant5_is_in_connections x participant5_action x participant[345]_focus
+
+
+- participant5_is_in_connections x participant5_is_employee x is_commented_by_connections
+
+
+- participant5_is_in_connections x participant5_is_employee x participant[2345]_action
+
+
+- participant5_is_in_connections x participant5_is_employee x participant[234]_is_employee
+
+
+- participant5_is_in_connections x participant5_is_employee x participant[45]_focus
+
