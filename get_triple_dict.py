@@ -40,8 +40,9 @@ for key in pair_crosses_dict.keys():
             all_variants = second_term[opening_ind+1:closing_ind]
             second_term = [double[1][:opening_ind] + var + \
                            double[1][closing_ind+1:] for var in all_variants]
-
-        inner_dict[double[0]].append(second_term)
+            inner_dict[double[0]] += second_term
+        else:
+            inner_dict[double[0]].append(second_term)
     triple_crosses_dict[key] = dict(inner_dict)
 
 pprint(dict(triple_crosses_dict))
